@@ -2,9 +2,23 @@
 
 <?php
 echo "el pepe\n";
-$x = 103 * 1212;
+$a = 10;
+$b = 5;
+$x = $a + $b;
 
-echo "the number is " . $x . " ,is it?";
+echo "the number is  ". $x .",is it? "; 
+
+echo "double quote \n $x replace";
+
+// this is a comment
+
 ?>
-
+<br>
+<?php 
+echo 'single quote \n $x dont replace';
+?>
+<br>
+<?php 
+echo "double quote \n $x replace";
+?>
 <p>another paragraph</p>
