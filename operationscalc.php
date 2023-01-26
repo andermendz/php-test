@@ -37,7 +37,7 @@ $text = "this is a text";
 echo "the word te in in the variable text at  " . strpos($text,"a");
 
 if (strpos($text, "th") == false)
-    echo "th is at " . strpos($text,"th");
+    echo "th  is at " . strpos($text,"th");
 
 ?>
 
