@@ -1,6 +1,7 @@
 <p> Testing submit</p>
 <form >
-<input type="text" name = "submt" id="guest">
+<input type="text" name = "name" id="guest">
+<input type="text" name = "age" id="guest">
 <input type="submit">
 </form>
 
