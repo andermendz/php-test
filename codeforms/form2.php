@@ -1,6 +1,7 @@
 <h1>Form</h1>
 
-<form>
+
+<form method="post">
 <p><label for="guest"> Input you'r name</label>
 <input type="text" name="guest" id="guest">
 </p>
@@ -10,6 +11,6 @@
 
 <?php 
 
-print_r($_GET)
+print_r($_POST)
 
 ?>
