@@ -1,14 +1,18 @@
 <?php
 
-$oldguess = isset($_POST['guess']) ? $_POST['guess'] : "";
+$oldguess = "";
 $mess = false;
 
-if ($_POST['guess'] < 42) {
-    $mess == "too low";
-} else if ($_POST['guess'] > 42) {
-    $mess = "too high bud";
-} else if ($_POST['guess'] == 42) {
-    $mess = "that right you got it";
+if (isset($_POST['guess'])){
+    $oldguess = isset($_POST['guess']) ? $_POST['guess'] : "";
+    if ($_POST['guess'] < 42) {
+        $mess == "too low";
+    } else if ($_POST['guess'] > 42) {
+        $mess = "too high bud";
+    } else if ($_POST['guess'] == 42) {
+        $mess = "that right you got it";
+    }
+    
 }
 
 
