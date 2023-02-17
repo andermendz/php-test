@@ -43,7 +43,8 @@ function isPerfect($i)
             <input type="text" name="number">
             <input type="submit">
         </p>
-
+  
+        
         <p> <?php isPerfect($_GET["number"]) ?> </p>
 
 
